@@ -23,6 +23,7 @@ body {
 
 section {
     min-height: 100vh;
+    height: 100%;
     margin-top: 0.3%;
 }
 
@@ -36,6 +37,7 @@ i {
     font-size: 3em;
     font-weight: bolder;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .subtitle {
