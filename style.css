@@ -120,4 +120,8 @@ i {
     margin: 1rem;
   }
 
+  .stack-icon:hover {
+    opacity: 0.4;
+  }
+
   /* OUR WORK */
