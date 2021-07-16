@@ -133,6 +133,9 @@ i {
 }
 
 /* OUR WORK */
+  .stack-icon:hover {
+    opacity: 0.4;
+  }
 
 /* CONTACT US */
 textarea {
