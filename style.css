@@ -119,14 +119,8 @@ i {
   padding-bottom: 0px;
 }
 
-.icon-social {
-  width: 100%;
-  height: auto;
-}
-
-.btn-social {
-  width: 300px;
-  height: 300px;
+.icon-social:hover {
+    color: var(--lombo-yellow-color);
 }
 
 /* OUR STACK */
