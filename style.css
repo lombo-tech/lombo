@@ -101,6 +101,11 @@ i {
   text-align: center;
 }
 
+#lombo-logo {
+    width: 30%;
+    height: auto;
+}
+
 /* WHAT WE DO */
 .what-we-do-card {
   padding: 3em;

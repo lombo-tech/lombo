@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/bc4b17cca9.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/rive-js@0.7.16/dist/rive.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -37,6 +38,16 @@
             });
         }
     </script>
+    <script type="module">
+        // autoplays the first animation in the default artboard
+        new rive.Rive({
+            //src: 'https://public.rive.app/community/runtime-files/374-1188-lombo.riv',
+            src: 'assets/lombo_animation2.riv',
+            canvas: document.getElementById('lombo-logo'),
+            autoplay: true,
+            layout: new rive.Layout({ fit: 'fitWidth', alignment: 'center' }),
+        })
+    </script>
     <link rel="preload" href="https://fonts.google.com/specimen/Open+Sans">
     <title>Cover Template · Bootstrap v5.0</title>
 
@@ -51,7 +62,8 @@
         <div class="container w-100">
             <div class="row align-items-center">
                 <div class="home col-12">
-                    <img id="lombo-logo" src="assets/lombo-full.png" alt="LOMBO" class="img-fluid" />
+                    <canvas id="lombo-logo"></canvas>
+                    <!-- <img id="lombo-logo" src="assets/lombo-full.png" alt="LOMBO" class="img-fluid" /> -->
                     <p class="lead">YOU HAVE THE IDEA. WE MAKE IT HAPPEN.</p>
                     <div class="row">
                         <div class="col-sm-6 text-sm-end">
