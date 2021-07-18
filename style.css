@@ -36,9 +36,17 @@ i {
 .title {
   font-size: 3em;
   font-weight: bolder;
-  text-align: center;
   margin-bottom: 2em;
+  box-shadow: inset 0 -2rem 0 0 var(--lombo-yellow-color);
+  width: fit-content;  
 }
+
+@media only screen and (min-width: 768px) {
+    .title {
+        margin-left: 1.7em;
+    }
+  }
+  
 
 .subtitle {
   place-content: center;
@@ -81,7 +89,7 @@ i {
 }
 
 .btn:hover {
-  background-color: var(--lombo-yellow-color);
+  background-color: var(--lombo-purple-color);
   color: var(--secondary-color);
 }
 
@@ -91,8 +99,8 @@ i {
 }
 
 .btn-highlight:hover {
-  background-color: var(--lombo-yellow-color);
-  color: var(--primary-color);
+  background-color: var(--lombo-purple-color);
+  color: var(--secondary-color);
 }
 
 /* HOME */
@@ -106,8 +114,6 @@ i {
   padding: 3em;
   margin: 2em;
 }
-
-
 
 /* ABOUT US */
 
@@ -123,7 +129,7 @@ i {
 }
 
 .icon-social:hover {
-    color: var(--lombo-yellow-color);
+  color: var(--lombo-purple-color);
 }
 
 /* OUR STACK */
@@ -139,25 +145,25 @@ i {
 
 /* OUR WORK */
 .portfolio-item-parent {
-    position: relative;
+  position: relative;
 }
 
 .portfolio-item-overlay {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    opacity: 0.8;
-    display: none;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    text-align: center;
-    padding-top: 25%;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  opacity: 0.8;
+  display: none;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  padding-top: 25%;
 }
 
 .portfolio-item-parent:hover .portfolio-item-overlay {
-    display: block;
+  display: block;
 }
 
 /* CONTACT US */
