@@ -133,9 +133,31 @@ i {
   margin: 1rem;
 }
 
-/* OUR WORK */
 .stack-icon:hover {
   opacity: 0.4;
+}
+
+/* OUR WORK */
+.portfolio-item-parent {
+    position: relative;
+}
+
+.portfolio-item-overlay {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    opacity: 0.8;
+    display: none;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.portfolio-item-parent:hover .portfolio-item-overlay {
+    display: block;
 }
 
 /* CONTACT US */
