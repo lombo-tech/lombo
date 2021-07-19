@@ -147,7 +147,7 @@ i {
 .portfolio-item-overlay {
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    opacity: 0.8;
+    opacity: 0.9;
     display: none;
     bottom: 0;
     top: 0;
