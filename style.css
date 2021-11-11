@@ -232,3 +232,24 @@ textarea {
         width: 50%;
     }
 }
+
+/* FOOTER */
+
+footer {
+    height: 3.5em;
+    background-color: var(--primary-color);
+}
+
+footer i {
+    color: var(--secondary-color);
+}
+
+footer div {
+    place-content: end;
+    height: 100%;
+    width: 100%;
+}
+
+.social-link {
+    width: auto;
+}
